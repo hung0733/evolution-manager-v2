@@ -1,0 +1,576 @@
+{
+  "dashboard": {
+    "title": "實例",
+    "search": "搜尋",
+    "status": "狀態",
+    "settings": "設定",
+    "instancesNotFound": "找不到實例"
+  },
+  "button": {
+    "delete": "刪除",
+    "deleting": "正在刪除...",
+    "cancel": "取消",
+    "markAll": "全部標記",
+    "unMarkAll": "取消全部標記"
+  },
+  "modal": {
+    "delete": {
+      "title": "刪除記錄",
+      "message": "你即將刪除實例 {{instanceName}}，確定要繼續嗎？",
+      "messageSingle": "此操作無法撤銷"
+    }
+  },
+  "status": {
+    "all": "全部",
+    "open": "已連線",
+    "connecting": "連線中",
+    "closed": "已斷線"
+  },
+  "footer": {
+    "clientName": "客戶名稱",
+    "version": "版本"
+  },
+  "header": {
+    "theme": {
+      "label": "切換主題",
+      "light": "淺色",
+      "dark": "深色",
+      "system": "系統"
+    },
+    "language": {
+      "label": "語言",
+      "english": "英文",
+      "portuguese": "葡萄牙文",
+      "spanish": "西班牙文",
+      "french": "法文",
+      "chineseHK": "繁體中文（香港）"
+    }
+  },
+  "chat": {
+    "media": {
+      "attach": "附加檔案",
+      "document": "文件",
+      "photosAndVideos": "相片及影片",
+      "errors": {
+        "audioSize": "音訊檔案大小必須小於 16 MB",
+        "imageSize": "圖片檔案大小必須小於 5 MB",
+        "videoSize": "影片檔案大小必須小於 16 MB",
+        "documentSize": "文件檔案大小必須小於 100 MB",
+        "unsupportedType": "不支援的檔案類型"
+      },
+      "selectedMedia": {
+        "imageAlt": "已選圖片",
+        "file": "檔案",
+        "selectedFile": "已選檔案"
+      }
+    }
+  },
+  "sidebar": {
+    "dashboard": "儀表板",
+    "chat": "聊天",
+    "configurations": "設定",
+    "settings": "設定",
+    "proxy": "代理",
+    "events": "事件",
+    "webhook": "Webhook",
+    "websocket": "WebSocket",
+    "rabbitmq": "RabbitMQ",
+    "sqs": "SQS",
+    "integrations": "整合",
+    "chatwoot": "Chatwoot",
+    "typebot": "Typebot",
+    "openai": "OpenAI",
+    "dify": "Dify",
+    "n8n": "n8n",
+    "evoai": "EvoAI",
+    "evolutionBot": "Evolution Bot",
+    "flowise": "Flowise",
+    "documentation": "文件",
+    "postman": "Postman",
+    "discord": "Discord",
+    "supportPremium": "高級支援"
+  },
+  "toast": {
+    "instance": {
+      "created": "實例建立成功",
+      "deleted": "實例刪除成功",
+      "error": "建立實例時發生錯誤"
+    }
+  },
+  "login": {
+    "title": "Evolution Manager",
+    "description": "WhatsApp API 管理員",
+    "apiUrl": "API 網址",
+    "apiKey": "API 金鑰",
+    "remember": "記住我",
+    "button": "登入",
+    "loggingIn": "登入中...",
+    "error": {
+      "invalidUrl": "無效的網址",
+      "invalidKey": "無效的金鑰"
+    },
+    "toasts": {
+      "error": {
+        "title": "登入失敗",
+        "description": "請檢查你的憑證後再試"
+      }
+    }
+  },
+  "instances": {
+    "title": "新增實例",
+    "description": "新增 WhatsApp 實例",
+    "instanceName": "實例名稱",
+    "number": "電話號碼（選填）",
+    "webhookUrl": "Webhook 網址（選填）",
+    "webhookUrlPlaceholder": "https://example.com/webhook",
+    "integration": "整合（選填）",
+    "selectIntegration": "選擇整合",
+    "rejectCall": "拒絕來電",
+    "rejectCallPlaceholder": "我目前正在忙，請傳訊息給我",
+    "syncChat": "同步聊天",
+    "button": "建立實例",
+    "creating": "建立中..."
+  },
+  "settings": {
+    "title": "設定",
+    "description": "設定實例",
+    "instanceName": "實例名稱",
+    "number": "電話號碼（選填）",
+    "webhookUrl": "Webhook 網址（選填）",
+    "webhookUrlPlaceholder": "https://example.com/webhook",
+    "webhookByEvents": "按事件分類 Webhook",
+    "webhookBase64": "Base64 Webhook",
+    "rejectCall": "拒絕來電",
+    "rejectCallPlaceholder": "我目前正在忙，請傳訊息給我",
+    "rejectCallCheckbox": "啟用來電拒接",
+    "syncChat": "同步聊天",
+    "alwaysOnline": "永遠在線",
+    "readMessages": "讀取訊息",
+    "readStatus": "讀取狀態",
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "proxy": {
+    "title": "代理",
+    "description": "設定代理",
+    "enabled": "啟用代理",
+    "host": "主機",
+    "port": "連接埠",
+    "protocol": "協議",
+    "username": "使用者名稱",
+    "password": "密碼",
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "webhook": {
+    "title": "Webhook",
+    "description": "設定 Webhook",
+    "enabled": "啟用 Webhook",
+    "url": "網址",
+    "urlPlaceholder": "https://example.com/webhook",
+    "byEvents": "按事件分類",
+    "base64": "Base64",
+    "events": {
+      "application_start": "應用程式啟動",
+      "connection_update": "連線更新",
+      "calls": "來電",
+      "messages_delete": "訊息刪除",
+      "messages_update": "訊息更新",
+      "messages_upsert": "訊息新增/更新",
+      "presence_update": "狀態更新",
+      "qrcode_updated": "QR 碼更新",
+      "chats_delete": "聊天刪除",
+      "chats_set": "聊天設定",
+      "chats_update": "聊天更新",
+      "chats_upsert": "聊天新增/更新",
+      "contacts_set": "聯絡人設定",
+      "contacts_update": "聯絡人更新",
+      "contacts_upsert": "聯絡人新增/更新",
+      "groups_delete": "群組刪除",
+      "groups_update": "群組更新",
+      "groups_upsert": "群組新增/更新",
+      "send_message": "傳送訊息"
+    },
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "websocket": {
+    "title": "WebSocket",
+    "description": "設定 WebSocket",
+    "enabled": "啟用 WebSocket",
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "rabbitmq": {
+    "title": "RabbitMQ",
+    "description": "設定 RabbitMQ",
+    "enabled": "啟用 RabbitMQ",
+    "uri": "URI",
+    "uriPlaceholder": "amqp://username:password@localhost:5672",
+    "exchangeName": "交換器名稱",
+    "routingKey": "路由鍵",
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "sqs": {
+    "title": "SQS",
+    "description": "設定 SQS",
+    "enabled": "啟用 SQS",
+    "url": "網址",
+    "urlPlaceholder": "https://sqs.us-east-1.amazonaws.com/123456789012/my-queue",
+    "region": "區域",
+    "accessKeyId": "存取金鑰 ID",
+    "secretAccessKey": "私密存取金鑰",
+    "button": "儲存設定",
+    "saving": "儲存中..."
+  },
+  "chatwoot": {
+    "title": "Chatwoot",
+    "description": "設定 Chatwoot 整合",
+    "accountId": "帳戶 ID",
+    "token": "Token",
+    "url": "網址",
+    "urlPlaceholder": "https://chatwoot.example.com",
+    "signMsg": "簽署訊息",
+    "signMsgDelimiter": "簽署分隔符",
+    "signMsgDelimiterPlaceholder": "|",
+    "button": "儲存設定",
+    "saving": "儲存中...",
+    "restart": "重新啟動",
+    "restarting": "重新啟動中..."
+  },
+  "typebot": {
+    "title": "Typebot",
+    "description": "設定 Typebot 整合",
+    "buttonAdd": "新增 Typebot",
+    "flowName": "流程名稱",
+    "flowNamePlaceholder": "my-flow",
+    "url": "網址",
+    "urlPlaceholder": "https://typebot.example.com",
+    "typebot": "Typebot",
+    "typebotPlaceholder": "typebot-id",
+    "enabled": "啟用 Typebot",
+    "triggerOperator": "觸發條件",
+    "triggerValue": "觸發值",
+    "triggerValuePlaceholder": "你好",
+    "expires": "過期時間（分鐘）",
+    "keyboard": "鍵盤",
+    "unknownMessage": "未知訊息",
+    "unknownMessagePlaceholder": "我不明白你的意思",
+    "listening": "監聽中",
+    "listeningPlaceholder": "我正在聽你說",
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 Typebot 工作階段"
+    },
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 Typebot"
+    },
+    "button": "儲存設定",
+    "saving": "儲存中...",
+    "buttonDelete": "刪除 Typebot",
+    "buttonUpdate": "更新 Typebot"
+  },
+  "openai": {
+    "title": "OpenAI",
+    "description": "設定 OpenAI 整合",
+    "buttonAdd": "新增 OpenAI",
+    "buttonDelete": "刪除 OpenAI",
+    "buttonUpdate": "更新 OpenAI",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "credentials": {
+      "title": "憑證",
+      "description": "管理 OpenAI 憑證",
+      "buttonAdd": "新增憑證",
+      "name": "名稱",
+      "apiKey": "API 金鑰",
+      "apiKeyPlaceholder": "sk-...",
+      "buttonSave": "儲存憑證"
+    },
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 OpenAI"
+    },
+    "form": {
+      "enabled": "啟用 OpenAI",
+      "credentials": "憑證",
+      "selectCredentials": "選擇憑證",
+      "model": "模型",
+      "selectModel": "選擇模型",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好",
+      "openaiCreds": "OpenAI 憑證",
+      "assistantId": "助理 ID",
+      "assistantIdPlaceholder": "asst_...",
+      "maxTokens": "最大 Token 數",
+      "temperature": "溫度",
+      "systemMessages": "系統訊息",
+      "systemMessagesPlaceholder": "你是一個有幫助的助理",
+      "timeout": "逾時（毫秒）",
+      "splitMessages": "分割訊息",
+      "numberCharacters": "字元數"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 OpenAI 工作階段"
+    }
+  },
+  "dify": {
+    "title": "Dify",
+    "description": "設定 Dify 整合",
+    "buttonAdd": "新增 Dify",
+    "buttonDelete": "刪除 Dify",
+    "buttonUpdate": "更新 Dify",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 Dify"
+    },
+    "form": {
+      "enabled": "啟用 Dify",
+      "credentials": "憑證",
+      "selectCredentials": "選擇憑證",
+      "name": "名稱",
+      "apiKey": "API 金鑰",
+      "apiKeyPlaceholder": "...",
+      "url": "網址",
+      "urlPlaceholder": "https://dify.example.com",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好",
+      "expires": "過期時間（分鐘）",
+      "unknownMessage": "未知訊息",
+      "unknownMessagePlaceholder": "我不明白你的意思",
+      "listening": "監聽中",
+      "listeningPlaceholder": "我正在聽你說"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 Dify 工作階段"
+    }
+  },
+  "n8n": {
+    "title": "n8n",
+    "description": "設定 n8n 整合",
+    "buttonAdd": "新增 n8n",
+    "buttonDelete": "刪除 n8n",
+    "buttonUpdate": "更新 n8n",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 n8n"
+    },
+    "form": {
+      "enabled": "啟用 n8n",
+      "name": "名稱",
+      "webhookUrl": "Webhook 網址",
+      "webhookUrlPlaceholder": "https://n8n.example.com/webhook/...",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 n8n 工作階段"
+    }
+  },
+  "evoai": {
+    "title": "EvoAI",
+    "description": "設定 EvoAI 整合",
+    "buttonAdd": "新增 EvoAI",
+    "buttonDelete": "刪除 EvoAI",
+    "buttonUpdate": "更新 EvoAI",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 EvoAI"
+    },
+    "form": {
+      "enabled": "啟用 EvoAI",
+      "name": "名稱",
+      "apiKey": "API 金鑰",
+      "apiKeyPlaceholder": "...",
+      "model": "模型",
+      "selectModel": "選擇模型",
+      "systemMessages": "系統訊息",
+      "systemMessagesPlaceholder": "你是一個有幫助的助理",
+      "maxTokens": "最大 Token 數",
+      "temperature": "溫度",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好",
+      "voice": "語音回覆",
+      "voiceLanguage": "語音語言"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 EvoAI 工作階段"
+    }
+  },
+  "evolutionBot": {
+    "title": "Evolution Bot",
+    "description": "設定 Evolution Bot 整合",
+    "buttonAdd": "新增 Evolution Bot",
+    "buttonDelete": "刪除 Evolution Bot",
+    "buttonUpdate": "更新 Evolution Bot",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 Evolution Bot"
+    },
+    "form": {
+      "enabled": "啟用 Evolution Bot",
+      "name": "名稱",
+      "apiUrl": "API 網址",
+      "apiUrlPlaceholder": "https://api.example.com",
+      "apiKey": "API 金鑰",
+      "apiKeyPlaceholder": "...",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好",
+      "expires": "過期時間（分鐘）"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 Evolution Bot 工作階段"
+    }
+  },
+  "flowise": {
+    "title": "Flowise",
+    "description": "設定 Flowise 整合",
+    "buttonAdd": "新增 Flowise",
+    "buttonDelete": "刪除 Flowise",
+    "buttonUpdate": "更新 Flowise",
+    "buttonSave": "儲存設定",
+    "saving": "儲存中...",
+    "defaultSettings": {
+      "title": "預設設定",
+      "description": "設定預設 Flowise"
+    },
+    "form": {
+      "enabled": "啟用 Flowise",
+      "name": "名稱",
+      "apiUrl": "API 網址",
+      "apiUrlPlaceholder": "https://flowise.example.com/api/v1/prediction/...",
+      "triggerOperator": "觸發條件",
+      "triggerValue": "觸發值",
+      "triggerValuePlaceholder": "你好",
+      "expires": "過期時間（分鐘）",
+      "unknownMessage": "未知訊息",
+      "unknownMessagePlaceholder": "我不明白你的意思",
+      "listening": "監聽中",
+      "listeningPlaceholder": "我正在聽你說",
+      "splitMessages": "分割訊息",
+      "numberCharacters": "字元數"
+    },
+    "sessions": {
+      "title": "工作階段",
+      "description": "管理 Flowise 工作階段"
+    }
+  },
+  "triggerOperators": {
+    "equals": "等於",
+    "contains": "包含",
+    "startsWith": "開頭是",
+    "endsWith": "結尾是",
+    "regex": "正規表示式"
+  },
+  "instanceStatus": {
+    "connecting": "連線中",
+    "open": "已連線",
+    "close": "已斷線",
+    "connect": "連線",
+    "disconnect": "斷線",
+    "reconnect": "重新連線",
+    "logout": "登出",
+    "restart": "重新啟動",
+    "deleting": "正在刪除...",
+    "delete": "刪除",
+    "qrCode": "QR 碼",
+    "pairingCode": "配對碼",
+    "loading": "載入中..."
+  },
+  "instanceChat": {
+    "title": "聊天",
+    "description": "聊天介面",
+    "newChat": "新聊天",
+    "searchPlaceholder": "搜尋聊天...",
+    "contactsTab": "聯絡人",
+    "chatsTab": "聊天",
+    "noChats": "沒有聊天",
+    "noContacts": "沒有聯絡人",
+    "selectChat": "選擇聊天以開始傳訊息",
+    "deleteChat": "刪除聊天",
+    "deleteChatConfirm": "確定要刪除此聊天嗎？此操作無法撤銷。",
+    "clearChat": "清除聊天",
+    "clearChatConfirm": "確定要清除此聊天嗎？所有訊息將被刪除。",
+    "inputPlaceholder": "輸入訊息...",
+    "send": "傳送",
+    "attach": "附加",
+    "me": "我",
+    "contact": "聯絡人",
+    "loadingMessages": "正在載入訊息...",
+    "noMessages": "沒有訊息",
+    "messageDeleted": "此訊息已被刪除",
+    "messageOptions": {
+      "reply": "回覆",
+      "copy": "複製",
+      "delete": "刪除",
+      "deleteForMe": "為我刪除",
+      "deleteForEveryone": "為所有人刪除",
+      "forward": "轉發",
+      "react": "反應"
+    },
+    "mediaModal": {
+      "title": "媒體",
+      "download": "下載",
+      "close": "關閉"
+    },
+    "profileModal": {
+      "title": "聯絡人資料",
+      "name": "名稱",
+      "number": "號碼",
+      "status": "狀態",
+      "close": "關閉"
+    },
+    "preview": {
+      "text": "你好，這是一則測試訊息",
+      "button": "按鈕範例",
+      "list": "清單範例"
+    }
+  },
+  "embedChat": {
+    "title": "嵌入聊天訊息",
+    "description": "設定嵌入聊天訊息",
+    "apiKey": "API 金鑰",
+    "apiKeyPlaceholder": "輸入 API 金鑰",
+    "instance": "實例",
+    "selectInstance": "選擇實例",
+    "number": "電話號碼",
+    "numberPlaceholder": "輸入電話號碼",
+    "button": "開啟聊天",
+    "config": {
+      "title": "嵌入設定",
+      "backgroundColor": "背景顏色",
+      "textColor": "文字顏色",
+      "buttonColor": "按鈕顏色",
+      "buttonText": "按鈕文字",
+      "buttonTextPlaceholder": "開啟聊天",
+      "headerTitle": "標題",
+      "headerTitlePlaceholder": "支援",
+      "welcomeMessage": "歡迎訊息",
+      "welcomeMessagePlaceholder": "你好！有什麼可以幫你？",
+      "inputPlaceholder": "輸入框提示",
+      "inputPlaceholderText": "輸入訊息...",
+      "showHeader": "顯示標題",
+      "showWelcome": "顯示歡迎訊息"
+    }
+  }
+}

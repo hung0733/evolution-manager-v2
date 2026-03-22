@@ -34,6 +34,9 @@ export function LanguageToggle() {
         <DropdownMenuItem className={i18n.language === "fr-FR" ? "font-bold" : ""} onClick={() => changeLanguage("fr-FR")}>
           {t("header.language.french")}
         </DropdownMenuItem>
+        <DropdownMenuItem className={i18n.language === "zh-HK" ? "font-bold" : ""} onClick={() => changeLanguage("zh-HK")}>
+          {t("header.language.chineseHK")}
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

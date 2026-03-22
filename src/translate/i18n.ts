@@ -5,6 +5,7 @@ import enUS from "./languages/en-US.json";
 import esES from "./languages/es-ES.json";
 import frFR from "./languages/fr-FR.json";
 import ptBR from "./languages/pt-BR.json";
+import zhHK from "./languages/zh-HK.json";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -19,6 +20,9 @@ i18n.use(initReactI18next).init({
     },
     "fr-FR": {
       translation: frFR,
+    },
+    "zh-HK": {
+      translation: zhHK,
     },
   },
   lng: localStorage.getItem("i18nextLng") || "en-US",
